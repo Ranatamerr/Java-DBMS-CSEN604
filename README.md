@@ -32,6 +32,8 @@ DBApp.insert("student", new String[]{"2", "stud2", "BI", "7", "1.2"});
 DBApp.createBitMapIndex("student", "major");
 System.out.println(DBApp.getValueBits("student", "major", "CS"));
 
+---
+
 > Folder Structure
 ├── DBApp.java               # Core logic for DBMS
 ├── FileManager.java         # Handles serialization, storage, recovery
@@ -40,6 +42,7 @@ System.out.println(DBApp.getValueBits("student", "major", "CS"));
 ├── Tables/                  # Serialized tables & indexes (auto-created)
 └── README.md                # You’re reading it!
 
+---
 
 >Learning Outcomes
 Through this project, we gained hands-on experience in:
