@@ -1,11 +1,11 @@
-# 🗄️ Java-DBMS | CSEN604 – Custom DBMS in Java
+#  Java-DBMS | CSEN604 – Custom DBMS in Java
 
 A lightweight **custom Database Management System (DBMS)** built in **Java** for the **CSEN604 course** at the German University in Cairo.  
 This project implements core database functionalities including **record storage**, **indexing**, and **recovery**, without using any external DB libraries.
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```
 src/
@@ -31,9 +31,9 @@ src/
 
 ---
 
-## 🔧 Features
+##  Features
 
-### 📍 Milestone 1 (MS1)
+###  Milestone 1 (MS1)
 - Table creation with custom column names
 - Row insertion with automatic page management
 - Full table selection (`SELECT *`)
@@ -42,7 +42,7 @@ src/
 - Operation tracing (full and last action)
 - File-based table/page serialization via `FileManager`
 
-### 📍 Milestone 2 (MS2)
+###  Milestone 2 (MS2)
 - Bitmap indexing on selected columns
 - Index-based conditional selection (fully, partially, or non-indexed)
 - Bitstream retrieval for specific values
@@ -51,7 +51,7 @@ src/
 
 ---
 
-## 🧪 Sample Test Case
+##  Sample Test Case
 
 ```java
 String[] cols = {"id", "name", "major", "semester", "gpa"};
@@ -66,7 +66,7 @@ System.out.println(DBApp.getValueBits("student", "major", "CS"));
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 Through this project, we gained hands-on experience in:
 
